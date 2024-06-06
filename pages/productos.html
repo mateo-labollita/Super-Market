@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="../multimedia/logo-super-market.jpg" alt="Logo de la empresa" class="Logo">
+        <h2 class="navegacion">Super Market</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="links-nav">
+            <a href="../index.html">Ofertas</a>
+            <a href="productos.html">Productos</a>
+            <a href="./sucursales.html">Sucursales</a>
+            <a href="./contacto.html">Contacto</a>
+            <a href="./trabajo.html">Trabaja con nosotros</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+        </nav>
+    </header>
+    <main>
+        <h1 id="cat">CATEGORIAS</h1>
+        <section class="container">
+            <div class="categorias">
+                <a href="#Almacen">Almacen</a>
+            </div>
+            <div class="categorias">
+                <a href="#Bebidas">Bebidas</a>
+            </div>
+            <div class="categorias">
+                <a href="#Farmacia">Farmacia</a>
+            </div>
+            <div class="categorias">
+                <a href="#Electrodomesticos">Electrodomesticos</a>
+            </div>
+            <div class="categorias">
+                <a href="#Verduleria">Verduleria</a>
+            </div>
+            <div class="categorias">
+                <a href="#Carniceria">Carniceria</a>
+            </div>
+        </section>
+        <section id="Almacen">
+            <h2>Almacen</h2>
+            <div class="almacen-container">
+                <div id="primerosa">
+                    <img src="../multimedia/mañanita.jpg" alt="Yerba Mañanita" class="Yerba">
+                    <p>MAÑANITA Yerba Mate x 500 gr $1.399</p>
+                </div>
+                <div id="primerosap">
+                    <img src="../multimedia/arroz.webp" alt="Molinos Ala arroz" class="Arroz">
+                    <p>MOLINOS ALA Arroz × 500 gr $849</p>
+                </div>
+                <div id="segundosa">
+                    <img src="../multimedia/pure-de-tomate.webp" alt="INCA pure de tomate" class="Pure">
+                    <p>INCA Pure de tomate x 520 gr $649</p>
+                </div>
+                <div id="segundosap">
+                    <img src="../multimedia/traviata.jpg" alt="Traviata sandwich" class="Traviata">
+                    <p>TRAVIATA Sandwich x 303 gr $879 </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Bebidas">
+            <h2>Bebidas</h2>
+            <div class="bebidas-container">
+                <div id="b">
+                    <img src="../multimedia/brio.jpeg" alt="Brio agua saborizada" class="Brio">
+                    <p>BRIO Agua saborizada varios sabores x 1,50 lt $689</p>
+                </div>
+                <div id="bp">
+                    <img src="../multimedia/villa-del-sur.webp" alt="Villa del Sur agua sin gas" class="villa-del-sur">
+                    <p>VILLA DEL SUR Agua mineral x 6,20 lt $2.099 </p>
+                </div>
+            </div>
+        </section>
+        <section id="Farmacia">
+            <h2>Farmacia</h2>
+            <div class="farmacia-container">
+                <div id="f">
+                    <img src="../multimedia/agua-oxigenada.jpeg" alt="Agua oxigenada">
+                    <p>AGUA OXIGENADA x 250ml $3.000</p>
+                </div>
+                <div id="fp">
+                    <img src="../multimedia/curitas.webp" alt="Curitas">
+                    <p>CURITAS resistentes al agua x 20 $1.200</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Electrodomesticos">
+            <h2>Electrodomesticos</h2>
+            <div class="electrodomesticos-container">
+                <div id="e">
+                    <img src="../multimedia/pava-electrica.jpg" alt="Pava electrica Peabody">
+                    <p>Pava electrica PEABODY $50.000</p>
+                </div>
+                <div id="ep">
+                    <img src="../multimedia/televisor.webp" alt="Televisor LG">
+                    <p>Televisor LG 80' $300.000</p>
+                </div>
+            </div>
+        </section>
+        <section id="Verduleria">
+            <h2>Verduleria</h2>
+            <div class="verduleria-container">
+                <div id="v">
+                    <img src="../multimedia/choclo.jpg" alt="Choclo amarillo">
+                    <p>CHOCLO x unidad $500</p>
+                </div>
+                <div id="vp">
+                    <img src="../multimedia/tomate.jpg" alt="Tomate redondo">
+                    <p>TOMATE redondo x kg $1.500</p>
+                </div>
+            </div>
+        </section>
+        <section id="Carniceria">
+            <h2>Carniceria</h2>
+            <div class="carniceria-container">
+                <div id="c">
+                    <img src="../multimedia/bife-de-cerdo.jpg" alt="Bife de cerdo">
+                    <p>BIFE de carre de cerdo x kg $8.000</p>
+                </div>
+                <div id="cp">
+                    <img src="../multimedia/chorizos.jpeg" alt="Chorizo de cerdo">
+                    <p>CHORIZO de cerdo x kg $4.000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="pie-de-pagina">
+        <div class="contenido">
+            <div>
+                <a href="">Términos y condiciones</a>
+            </div>
+            <div>
+                <a href="">Nuestos datos</a>
+            </div>
+            <div id="politica">
+                <a href="">Politica de privacidad</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

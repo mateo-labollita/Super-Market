@@ -1,0 +1,742 @@
+/* ofertas */
+body {
+    background-color: rgb(200, 176, 145);
+    margin: 0;
+    min-height: 100vh;
+}
+img {
+    width: 350px;
+}
+
+header .Logo {
+    width: 135px;
+    margin-left: 0px;
+}
+
+header {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    font-style: oblique;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+.navegacion {
+    display: flex;
+    align-items: center;
+}
+
+.links-nav{
+    
+    justify-content: space-evenly;
+}
+
+a {
+    color: black;
+}
+
+header a {
+    color: black;
+    text-decoration: underline;
+}
+
+header nav a {
+    font-weight: 800;
+    padding-right: 20px;
+}
+
+header h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+    padding-right: 35px;
+}
+
+.links-nav a:hover,
+.mostrar-menu:hover,
+.esconder-menu:hover{
+color: rgb(177, 177, 177);
+}
+
+#check{
+    display: none;
+}
+
+#primera h1 {
+    text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    background-color: black;
+    color: rgb(240, 240, 240);
+    margin-top: 0;
+    border-color: rgb(240, 240, 240);
+}
+#carouselExampleDark{
+    margin: 30px 150px;
+}
+.carousel-inner p{
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+.containerpromo{
+    height: 102.78px;
+    max-width: 1920px;
+    margin-bottom: 60px;
+    background-color: rgb(200, 176, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promociones{
+    display: flex;
+    align-items: center
+} 
+.promociones-item{
+    width: 364px;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+.promociones-items{
+    box-sizing: border-box;
+    height: 43.17px;
+    width: 454px;
+    border: 0.5px solid #d3d3d3;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 0 #d3d3d3;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.input-item{
+    border-style: none;
+    font-size: large
+}
+.button-item{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    height: 33px;
+    width: 120px;
+    border-radius: 16px;
+    background-color: black;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    min-width: 120px;
+}
+/* productos */
+#cat {
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.categorias {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.categorias a{
+    cursor: pointer;
+}
+.categorias a:hover{
+    text-decoration: none;
+}
+
+#Almacen h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.almacen-container{
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(2, 50%);
+}
+
+#primerosa {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#primerosap {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#segundosa {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#segundosap {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#Bebidas h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.bebidas-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#b {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#bp {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#Farmacia h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.farmacia-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#f {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+
+#fp {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#Electrodomesticos h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.electrodomesticos-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#e {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+#ep {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#Verduleria h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.verduleria-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#v {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#vp {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#Carniceria h2 {
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: rgb(240, 240, 240);
+    background-color: black;
+    color: rgb(240, 240, 240);
+}
+.carniceria-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#c {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#cp {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+/*sucursales*/
+#ubicaciones h2 {
+
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+}
+.ubi-container{
+    display: grid;
+    grid-template-rows: 1, 500px;
+    grid-template-columns: repeat(2, 50%) ;
+}
+#ubi {
+    font-size: 20px;
+    font-weight: 900;
+    justify-self: center;
+    align-self: center;
+}
+#ubi p{
+    display: flex;
+    justify-content: center;
+}
+
+#ubip {
+    font-size: 20px;
+    font-weight: 900;
+    justify-self: center;
+    align-self: center;
+}
+#ubip p{
+    display: flex;
+    justify-content: center;
+}
+
+/*contacto*/
+#contact {
+    font-style: oblique;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-inline: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid;
+}
+#contact a:hover{
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#contactdos {
+    font-style: oblique;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-inline: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: solid;
+}
+#contactdos a:hover{
+    text-decoration: none;
+}
+
+/*trabajo*/
+h5 {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+form #informacion-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+form .informacion{
+    display: flex;
+    justify-content: center;
+}
+form .cajas-text{
+    border: 0.5px solid #d3d3d3;
+    border-radius: 20px;
+    background-color: #d3d3d3;
+    box-shadow: 2px 2px 6px 0 #d3d3d3;
+}
+form textarea{
+    justify-content: center;
+    align-items: center;
+}
+form #final{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 0px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+form #final:hover {
+    background-color: rgba(0, 0, 0, 0.647);
+}
+
+footer{
+    background-color: black;
+    color: gray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+footer a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+footer a:hover{
+    color: aliceblue;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido div{
+    border-right: 2px solid rgb(187, 187, 187);
+}
+#politica{
+    border: none;
+}
+/*RESPONSIVE DE INDEX*/
+@media screen and (max-width:1300px) {
+    .ubi-container{
+        display: grid;
+        grid-template-rows: 2, 500px;
+        grid-template-columns: 3fr;
+    }
+}
+@media(max-width:1024px) {
+    /*Header*/
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+
+    .links-nav{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(240, 240, 240);
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .links-nav a{
+        display: block;
+        padding: 20px;
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .links-nav{
+        right: 0;
+    }
+
+    /*Suscripcion*/
+    .promociones{
+        flex-wrap: wrap;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+.containerpromo{
+    height: 100px;
+    max-width: 800px;
+}
+.promociones-item{
+    width: 190px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+}
+.promociones-items{
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0 #d3d3d3;
+    padding: 2.5px;
+    margin-left: 20px;
+}
+.input-item{
+    font-size: small;
+    border-radius: 10px;
+}
+.button-item{
+    font-size: 12px;
+}
+/*productos*/
+.container{
+    grid-template-rows: repeat(6, 40px);
+    grid-template-columns: 3fr;
+}
+.container .categorias a{
+    font-size: x-large;
+    transition: 0.5s;
+}
+.almacen-container{
+    grid-template-rows: repeat(4, 430px);
+    grid-template-columns: 3fr;
+}
+.bebidas-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.farmacia-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.electrodomesticos-container{
+    grid-template-rows: repeat(2, 500px);
+    grid-template-columns: 3fr;
+}
+.verduleria-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.carniceria-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+
+#ubicaciones h2 {
+    font-size: xx-large;
+    transition: 0.5s;
+}
+.iframe-item{
+    width: 450px;
+    height: 350px;
+    transition: 0.5s;
+}
+
+#contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    transition: 0.5s;
+    
+}
+
+#contactdos {
+    font-size: x-large;
+    transition: 0.5s;
+}
+h5 {
+    font-size: 15px;
+    transition: 0.5s;
+}
+}
+
+@media screen and (max-width:500px) {
+    header .Logo{
+        width: 100px;
+    }
+    header h2{
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    #primera h1{
+        font-size: xx-large;
+    }
+    .contenido{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenido div{
+        border-right: none;
+        padding-top: 5px;
+    }
+    .contenido div a{
+        font-size: small;
+    }
+    .almacen-container{
+        grid-template-rows: repeat(4, 300px);
+        grid-template-columns: 3fr;
+    }
+    .bebidas-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .farmacia-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .electrodomesticos-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .verduleria-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .carniceria-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    footer{
+        padding: 20px 0px;
+    }
+    .promociones-item h4{
+        font-size: medium;
+    }
+    #Almacen h2{
+        font-size: xx-large;
+    }
+    #Bebidas h2{
+        font-size: xx-large;
+    }
+    #Farmacia h2{
+        font-size: xx-large;
+    }
+    #Electrodomesticos h2{
+        font-size: xx-large;
+    }
+    #Verduleria h2{
+        font-size: xx-large;
+    }
+    #Carniceria h2{
+        font-size: xx-large;
+    }
+    .almacen-container #primeros a img{
+        width: 300px;
+    }
+    body main img{
+        width: 300px;
+        height: 200px;
+    }
+    #ubicaciones h2 {
+        font-size: x-large;
+        transition: 0.5s;
+    }
+    .iframe-item{
+        width: 300px;
+        height: 200px;
+        transition: 0.5s;
+        margin-right: 100px;
+    }
+    
+    #ubi p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #ubip p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #ptuno h4{
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    #ptdos h4{
+            font-size: 15px;
+            transition: 0.5s;
+    }
+    #textarea-item{
+        display: grid;
+    }
+    .cajas-text{
+        display: grid;
+
+    }
+}
+
+
+
+
+
