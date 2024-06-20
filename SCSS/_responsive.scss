@@ -1,0 +1,249 @@
+/*RESPONSIVE DE INDEX*/
+@media screen and (max-width:1300px) {
+    .ubi-container{
+        display: grid;
+        grid-template-rows: 2, 500px;
+        grid-template-columns: 3fr;
+    }
+}
+@media(max-width:1024px) {
+    /*Header*/
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+
+    .links-nav{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(240, 240, 240);
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .links-nav a{
+        display: block;
+        padding: 20px;
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .links-nav{
+        right: 0;
+    }
+
+    /*Suscripcion*/
+    .promociones{
+        flex-wrap: wrap;
+    flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+.containerpromo{
+    height: 100px;
+    max-width: 800px;
+}
+.promociones-item{
+    width: 190px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+}
+.promociones-items{
+    height: 25px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0 #d3d3d3;
+    padding: 2.5px;
+    margin-left: 20px;
+}
+.input-item{
+    font-size: small;
+    border-radius: 10px;
+}
+.button-item{
+    font-size: 12px;
+}
+/*productos*/
+.container{
+    grid-template-rows: repeat(6, 40px);
+    grid-template-columns: 3fr;
+}
+.container .categorias a{
+    font-size: x-large;
+    transition: 0.5s;
+}
+.almacen-container{
+    grid-template-rows: repeat(4, 430px);
+    grid-template-columns: 3fr;
+}
+.bebidas-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.farmacia-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.electrodomesticos-container{
+    grid-template-rows: repeat(2, 500px);
+    grid-template-columns: 3fr;
+}
+.verduleria-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+.carniceria-container{
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: 3fr;
+}
+
+#ubicaciones h2 {
+    font-size: xx-large;
+    transition: 0.5s;
+}
+.iframe-item{
+    width: 450px;
+    height: 350px;
+    transition: 0.5s;
+}
+
+#contact {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    transition: 0.5s;
+    
+}
+
+#contactdos {
+    font-size: x-large;
+    transition: 0.5s;
+}
+h5 {
+    font-size: 15px;
+    transition: 0.5s;
+}
+}
+
+@media screen and (max-width:500px) {
+    header .Logo{
+        width: 100px;
+    }
+    header h2{
+        font-size: 30px;
+        transition: 0.5s;
+    }
+    #primera h1{
+        font-size: xx-large;
+    }
+    .contenido{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenido div{
+        border-right: none;
+        padding-top: 5px;
+    }
+    .contenido div a{
+        font-size: small;
+    }
+    .almacen-container{
+        grid-template-rows: repeat(4, 300px);
+        grid-template-columns: 3fr;
+    }
+    .bebidas-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .farmacia-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .electrodomesticos-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .verduleria-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    .carniceria-container{
+        grid-template-rows: repeat(2, 300px);
+        grid-template-columns: 3fr;
+    }
+    footer{
+        padding: 20px 0px;
+    }
+    .promociones-item h4{
+        font-size: medium;
+    }
+    #Almacen h2{
+        font-size: xx-large;
+    }
+    #Bebidas h2{
+        font-size: xx-large;
+    }
+    #Farmacia h2{
+        font-size: xx-large;
+    }
+    #Electrodomesticos h2{
+        font-size: xx-large;
+    }
+    #Verduleria h2{
+        font-size: xx-large;
+    }
+    #Carniceria h2{
+        font-size: xx-large;
+    }
+    .almacen-container #primeros a img{
+        width: 300px;
+    }
+    body main img{
+        width: 300px;
+        height: 200px;
+    }
+    #ubicaciones h2 {
+        font-size: x-large;
+        transition: 0.5s;
+    }
+    .iframe-item{
+        width: 300px;
+        height: 200px;
+        transition: 0.5s;
+        margin-right: 100px;
+    }
+    
+    #ubi p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #ubip p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #ptuno h4{
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    #ptdos h4{
+            font-size: 15px;
+            transition: 0.5s;
+    }
+    #textarea-item{
+        display: grid;
+    }
+    .cajas-text{
+        display: grid;
+
+    }
+}

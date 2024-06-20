@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(200, 176, 145);
+    margin: 0;
+    min-height: 100vh;
+}
+img {
+    width: 350px;
+}
+
+@import "_header";
+@import "_index";
+@import "_almacen";
+@import "_sucursales";
+@import "_contacto";
+@import "_trabajo";
+@import "_footer";
+@import "_responsive";
+@import "_animaciones"

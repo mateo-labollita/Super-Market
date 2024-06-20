@@ -1,0 +1,52 @@
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+.float:hover{
+    background-color: #28e76e;
+}
+.fa-whatsapp{
+    font-size: 60px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: gray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    a {
+        color: gray;
+        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+footer a:hover{
+    color: aliceblue;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        border-right: 2px solid rgb(187, 187, 187);
+    }
+}
+#politica{
+    border: none;
+}

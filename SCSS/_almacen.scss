@@ -1,0 +1,139 @@
+#cat {
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(2, 50px);
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+
+.categorias {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    a{
+        cursor: pointer;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+#Almacen {
+    h2{
+    text-align: center;
+    font-size: xxx-large;
+    border-style: solid;
+    border-color: $colorprincipal;
+    background-color: black;
+    color: $colorprincipal;     
+    }
+    
+}
+.almacen-container{
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(2, 50%);
+}
+
+#primerosa {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#primerosap {
+    @extend #primerosa ;
+}
+
+
+#segundosa {
+    @extend #primerosa ;
+}
+#segundosap {
+    @extend #primerosa ;
+}
+
+#Bebidas {
+    @extend #Almacen ;
+}
+.bebidas-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#b {
+    font-weight: 1000;
+    justify-self: center;
+    align-self: center;
+}
+
+#bp {
+    @extend #b ;
+}
+
+#Farmacia {
+    @extend #Almacen
+}
+.farmacia-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#f {
+    @extend #b ;
+}
+
+
+#fp {
+    @extend #b ;
+}
+
+#Electrodomesticos {
+    @extend #Almacen
+}
+.electrodomesticos-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#e {
+    @extend #b ;
+}
+#ep {
+    @extend #b ;
+}
+
+#Verduleria {
+    @extend #Almacen
+}
+.verduleria-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#v {
+    @extend #b ;
+}
+
+#vp {
+    @extend #b ;
+}
+
+#Carniceria {
+    @extend #Almacen
+}
+.carniceria-container{
+    display: grid;
+    grid-template-rows: 1 400px;
+    grid-template-columns: repeat(2, 50%)
+}
+#c {
+    @extend #b ;
+}
+
+#cp {
+    @extend #b ;
+}

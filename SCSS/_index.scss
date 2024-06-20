@@ -1,0 +1,82 @@
+#primera {
+    h1{
+        text-align: center;
+    font-size: 50px;
+    border-style: solid;
+    background-color: black;
+    color: $colorprincipal;
+    margin-top: 0;
+    border-color: $colorprincipal;
+    }
+    
+}
+#carouselExampleDark{
+    margin: 30px 150px;
+}
+.carousel-inner {
+    p{
+        font-size: 25px;
+    padding: 5px;
+    }
+    
+}
+
+
+.containerpromo{
+    height: 102.78px;
+    max-width: 1920px;
+    margin-bottom: 60px;
+    background-color: rgb(200, 176, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promociones{
+    display: flex;
+    align-items: center
+} 
+.promociones-item{
+    width: 364px;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: center;
+}
+.promociones-items{
+    box-sizing: border-box;
+    height: 43.17px;
+    width: 454px;
+    border: 0.5px solid #d3d3d3;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px 0 #d3d3d3;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.input-item{
+    border-style: none;
+    font-size: large
+}
+.button-item{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    height: 33px;
+    width: 120px;
+    border-radius: 16px;
+    background-color: black;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    min-width: 120px;
+}
