@@ -88,6 +88,14 @@ a {
   border-color: rgb(240, 240, 240);
 }
 
+.text-super h5 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin: 80px 50px;
+  color: rgb(59, 59, 59);
+}
+
 #carouselExampleDark {
   margin: 30px 150px;
 }
@@ -647,6 +655,60 @@ footer a:hover {
 .animate__pulse {
   animation-iteration-count: infinite;
   animation-timing-function: 2.5s;
+}
+
+#navegador {
+  justify-content: center;
+}
+
+.terminos-container {
+  text-align: left;
+}
+.terminos-container h1 {
+  font-weight: bold;
+  text-align: center;
+}
+.terminos-container h5 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.terminos-container p {
+  margin: 25px 0px;
+  font-size: large;
+  font-weight: 500;
+}
+
+#navegador {
+  justify-content: center;
+}
+
+.politica-container h1 {
+  font-weight: bold;
+  text-align: center;
+}
+.politica-container h2 {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+.politica-container p {
+  font-size: large;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+#navegador {
+  justify-content: center;
+}
+
+.datos-container h1 {
+  text-align: center;
+  margin: 20px;
+  text-decoration: underline;
+}
+.datos-container p {
+  font-size: large;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=styles.css.map */
