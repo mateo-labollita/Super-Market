@@ -6,7 +6,7 @@
 }
 .ubi-container{
     display: grid;
-    grid-template-rows: 1, 500px;
+    grid-template-rows: 1 500px;
     grid-template-columns: repeat(2, 50%) ;
 }
 #ubi {

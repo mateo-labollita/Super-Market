@@ -46,6 +46,9 @@
 }
 
 @media screen and (max-width:768px) {
+#carouselExampleDark{
+    margin: 15px 75px; 
+}
 .containerpromo{
     height: 100px;
     max-width: 800px;
@@ -142,6 +145,13 @@ h5 {
         font-size: 30px;
         transition: 0.5s;
     }
+    .text-super{
+        h5{
+            font-size: medium;
+            margin: 30px 25px; 
+            transition: 0.5s;
+        }
+    }
     #primera h1{
         font-size: xx-large;
     }
@@ -226,10 +236,12 @@ h5 {
     #ubi p{
         font-size: 15px;
         font-weight: 500;
+        justify-content: left;
     }
     #ubip p{
         font-size: 15px;
         font-weight: 500;
+        justify-content: left;
     }
     #ptuno h4{
         font-size: 15px;
@@ -245,5 +257,15 @@ h5 {
     .cajas-text{
         display: grid;
 
+    }
+    .float{
+        width: 40px;
+    height: 40px;
+    bottom: 25px;
+    right: 25px;
+    transition: 0.5s;
+    }
+    .fa-whatsapp{
+        font-size: 40px;
     }
 }
